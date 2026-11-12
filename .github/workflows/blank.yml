@@ -1,0 +1,133 @@
+\documentclass[a4,12pt]{article}
+\usepackage[ngerman]{babel}
+\usepackage[onehalfspacing]{setspace} % 1.5-facher Zeilenabstand#
+%\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{geometry}
+%\usepackage[english,ngerman]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{caption}
+%\usepackage{setspace}
+
+\usepackage[backend=biber]{biblatex}
+
+%\usepackage{natbib}
+\addbibresource{citations.bib}
+\addbibresource{citations.bib}
+\geometry{a4paper, margin=1in}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    {\Large Technische Universität Dortmund}\\[1.0cm]
+
+    \vspace*{3cm}
+    {\LARGE {Daten und KI-Ethik}}\\[3.0cm]
+{\Huge \begin{spacing}{1.2}
+\textbf{Gewissensbit: KI-Checker bei internationalen Studenten}
+\end{spacing}}\\[2.0cm]\\
+    {\Large {Gruppenmitglieder:}}\\[0.5cm]
+    {\large Elaha Bahir, Felix Kirchner, Tim Merge, Xin Xian Chail}\\[4.0cm]
+    {\large Dozenten }\\Dr. Henrike Weinert\\ Julian Welz\\
+    [2.0cm]
+    
+    {\large 17.11.2026}
+    \vfill
+\end{titlepage}
+
+\begingroup
+  \flushbottom % 
+  %\setlength{\parskip}{0pt plus 1fil}%
+  \tableofcontents
+  \newpage
+\endgroup
+
+% https://www.einfachlehren.tu-darmstadt.de/themensammlung/details_61120.de.jsp
+% Link mit Verweis auf Studie die einen solchen Effekt feststellt, jedoch mit Englisch als Muttersprache
+% Oder: https://www.thm.de/site/hochschule/zentrale-bereiche/pruefungsamt/ki-und-pruefungen/grenzen-der-ki-erkennungssoftware.html
+% https://arxiv.org/abs/2306.15666 für deren Paper
+%% Nur als Ansatz wenn z.t. die Einordnung schwierig ist
+
+% Nur 2 waren gegen Ende da, Gewissensbit muss ausgeschrieben werden.
+% Methdische Behandlung und ethische Einordung soweit nur Notizen hier reinschreiben, auf endgültige Fassung bei diesen Abschnitten kann man sich nächsten Dienstag einigen
+
+
+\section{Gewissensbit} 
+
+% Cast:
+% Steven -> Student der KI für eine Hausarbeit genutzt hat und in Probleme kommt, weil der Checker sein Rechtschreibtool als KI ansieht.
+% X -> Korrektor:In die mit einem KI-Checker testet, ob sich die Studenten auch an die Regelung gehalten haben. Nach Ausschlag des Checkers und kurzem Überfliegen des Texts leitet sie die Arbeit weiter.
+% ! ist Teil der Fakultät und prüft ob die Arbeit von ? mit dem Ziel der Täsuchung verfasst wurde. Im Rahmen dessen sucht er ein Gespräch mit ?
+
+% Anfang: Situation von ?; Verwendung von KI || Mittel: Falscheinordnung, evtl. angedeutete Konsequenzen
+% Dann: Vertretbarkeit von Seiten der Fakultät, warum machen die das? Problem des Bias wegen Fremdsprache
+% Ende: Wie ging es aus für ? 
+
+Steven ist ein internationaler Student und studiert Informatik an der Technischen Universität Dortmund. Obwohl er die deutsche Sprache gut beherrscht, fällt es ihm manchmal schwer, wissenschaftliche Texte fehlerfrei zu formulieren. Im Rahmen eines Moduls soll er ein Programmierprojekt zum Thema KI-Coding entwickeln und anschließend eine Hausarbeit über seine Vorgehensweise schreiben. Die Nutzung von KI ist dabei ausdrücklich erlaubt, solange sie dokumentiert wird und die wesentlichen Leistungen eigenständig erbracht werden.\\
+\newline
+Steven arbeitet mehrere Wochen an seinem Projekt. Für die Programmierung verwendet er gelegentlich einen KI-Assistenten, dessen Einsatz er wie vorgeschrieben in einer Tabelle dokumentiert. Beim Verfassen seines Berichts nutzt er zusätzlich ein Online-Rechtschreibtool, welches seine Grammatik verbessert und einige Formulierungen sprachlich überarbeitet. Die Inhalte und Argumentationen stammen jedoch von ihm selbst. Da er das Rechtschreibtool lediglich als sprachliche Unterstützung betrachtet, führt er es nicht in der Tabelle auf.\\
+\newline
+Nach der Abgabe kontrolliert die wissenschaftliche Mitarbeiterin Laura die eingereichten Hausarbeiten. Um mögliche Täuschungsversuche aufzudecken und eine faire Bewertung aller Studierenden sicherzustellen, verwendet sie einen KI-Checker, Dieser soll erkennen, welche Textpassagen möglicherweise durch künstliche Intelligenz erstellt wurden.\\
+\newline
+Bei Stevens Hausarbeit schlägt der KI-Checker an: Ein großer Teil seines Berichts wird als wahrscheinlich KI-generiert eingestuft. Laura überfliegt die markierten Textstellen und stellt fest, dass sie sprachlich besonders einheitlich und fehlerfrei formuliert sind. Da sie zahlreiche Arbeiten korrigieren muss und der Verdacht auf eine nicht ausreichend dokumentierte KI-Nutzung besteht, leitet sie den Fall an den zuständigen Prüfungsausschuss weiter.\\
+\newline
+Wenige Tage später erhält Steven eine E-Mail. Ihm wird mitgeteilt, dass der Verdacht auf einen Täuschungsversuch besteht und seine Arbeit vorerst nicht bewertet werden kann. Er wird zu einem Gespräch eingeladen, in dem er erklären soll, wie sein Bericht entstanden ist.\\
+\newline
+Steven ist überrascht und verunsichert. Er erklärt, dass er den gesamten Bericht selbst geschrieben und lediglich ein Rechtschreibtool zur sprachlichen Verbesserung verwendet habe. Besonders ungerecht findet er, dass ausgerechnet seine Bemühungen, sprachliche Fehler zu vermeiden, nun gegen ihn verwendet werden.\\
+\newline
+Laura erklärt, dass es ihre Verpflichtung ist, mögliche Täuschungsversuche zu überprüfen. Würde sie Auffälligkeiten ignorieren, könnten Studierende, die ihre Arbeiten eigenständig verfassen, gegenüber anderen benachteiligt werden. Gleichzeitig betont sie jedoch, dass das Ergebnis des KI-Checkers allein keinen Täuschungsversuch beweist.\\
+\newline
+Im anschließenden Gespräch mit einem Mitglied des Prüfungsausschusses erfährt Steven, dass solche Erkennungsprogramme fehleranfällig sein können. Insbesondere sprachlich überarbeitete oder übersetzte Texte können unter bestimmten Umständen fälschlicherweise als KI-generiert eingestuft werden. Steven fragt sich deshalb, ob Studierende, die nicht in ihrer Muttersprache schreiben, durch den Einsatz solcher Programme möglicherweise häufiger unter Verdacht geraten.\\
+\newline
+Der Prüfungsausschuss steht nun vor einer schwierigen Entscheidung. Einerseits möchte die Universität sicherstellen, dass alle Studierenden nach denselben Regeln bewertet werden und unerlaubte KI-Nutzung erkannt wird. Andererseits darf niemand allein aufgrund einer möglicherweise fehlerhaften Softwarebewertung zu Unrecht beschuldigt werden.\\
+Steven bietet an, seine Entwürfe und den Bearbeitungsverlauf seines Dokuments vorzulegen. Allerdings besitzt er nicht mehr alle Zwischenversionen. Er fragt sich, warum er nun seine Eigenständigkeit nachweisen soll, obwohl der ursprüngliche Verdacht hauptsächlich auf einer automatisierten Einschätzung beruht.\\
+\newline
+Eine endgültige Entscheidung über seine Arbeit steht noch aus. Während Steven auf das Ergebnis wartet, überlegt die Fakultät, ob sie KI-Checker weiterhin zur Überprüfung studentischer Arbeiten einsetzen sollte und unter welchen Bedingungen dies vertretbar wäre.\\
+
+
+
+
+
+% Student ? nutzt KI für eine Hausarbeit, es war auch erlaubt, solange man entsprechende Abschnitte in einer Tabelle markiert und nur als Unterstützende Massnahme. Zusätzlich nutzt ? auch ein Online-Rechtschreibtool, da er/sie in einer Fremdsprache schreibt. Der vom Veranstalter verwendete KI-Prüfer/KI-Checker markiert jedoch alle diese Textabschnitte als KI-Generiert. Daraufhin wird von ? verlangt nachzuweisen, dass er/sie die entsprechenden Abschnitte selbst verfasst hat.
+
+% Ex. Bias gdw. MachineTranslating genutzt wird, was natürlich insbesondere fremdsprachige Studenten betrifft
+% Zudem kann die aktive Nutzunb von Rechtschreibtools auch aktiv die eigene Formulierung beeinflussen. Siehe bsp. die haeufigere Verwendung von em-dashes, dem oxford-Komma, oder im Deutschen das i.A. eher weggelassene Komma vor dem 'und'
+
+% Problematik: Die Güte von KI-Checkern sinkt nachweisbar wenn von Menschen geschriebene Texte maschinell übersetzt werden. 
+
+%section{methodische Behandlung} Muss nicht abgegeben werden
+% Güterabwägung hier eher geeignet
+
+\section{Fragen}
+%Beispiele:
+\begin{enumerate}
+    \item Steven's Arbeit wurde fälschlich als von KI generiert markiert. Würden sie sagen, dass in diesem Fall das \textit{false positive} zu erwarten war? Wenn ja, sehen sie die Folgen auch als verständlich?
+    \item Denkbar wäre auch das man reguläre Abgaben bsp. für Studienleistungen auf KI-Verwendung untersucht. Wie stehen sie dazu? Sehen sie darin einen Sinn, oder würden sie den Nutzen von KI hier als selbstschädigend ohne weiteren Handlungsgrund einordnen? % Regt die Frage eine Diskussion an? Ist das wichtig fürs Bit?
+    \item Ist eine solche Nutzung von KI für 'Wochenaufgaben' ihrer Meinung nach unterschiedlich zu einem googeln nach Literatur oder Foren in denen die Aufgaben konkret behandelt werden? % Evtl. noch: Sehen sie da einen Unterschied zu der Hausarbeit/Projekt/...
+    \item Wie würden sie die Einschätzung eines solchen KI-Checkers bewerten? Sehen Sie diese als ausreichend für weitere Handlungen oder Strafen an, oder eher als Ansatz tiefer manuell auffällige Textstellen zu untersuchen? % Existenz fortgeschrittener Checker die den Text auch nach Auffälligkeit markieren
+    \item Wie stehen sie zur KI Verwendung von ? Würden sie sagen, dass diese im Rahmen der Regeln liegt? % Also, ob für eine technische Arbeit die Verwendung von KI zur Rechtschreibprüfung überhaupt bedeutsam ist.
+    \item Wer wäre denn verantwortlich falls es zu einer Bewertung der Arbeit als Fehlversuch oder Täuschung kommen sollte? Könnte man das überhaupt verantworten? % Bsp. bei einer Anfechtung
+    \item ! behauptet das die Checker in der Zukunft insbesondere besser werden sollten, wenn Fälle wie die von Steven aktiv genutzt werden um das Modell anzupassen. Wie stehen sie dazu, auch von einer ethischen Sichtweise? % ! ist dritte Person der Fakultät die den Fall letztendlich behandelt
+    \item Hätte Laura die Resultate des KI-Checkers kritischer prüfen sollen? % Und kommt es damit nicht einfach zu einem neuen Bias?
+\end{enumerate}
+
+\section{ethische Einordnung} % Utilitarismus? Unklar wie Kant da genutzt werden koennte
+
+\section{Prozess-Notiz}
+
+Ein erster Vorschlag hatte KI-Chatbots betrachtet und ob man an diese Anforderungen ähnlich wie den Beobachtungsstudien stellen sollte. Im Gewissensbit wäre es darum gegangen das diese KI-Agenten auf allen Gesprächen trainiert werden und, zumindest in früheren Versionen, recht passive unterstützende 'Gesprächspartner' waren. Im konkreten Konflikt ging es darum gegangen, dass zwar präventiv bestimmte Themen und Inhalte vom Betreiber geblockt waren, aber dennoch aktiv an ähnlichen profitiert wird, wie dem Verhalten einiger Nutzer die solche Agenten nutzen um echte 'Partner' zu ersetzen.\\
+Bei dem Vorschlag ist es daran gescheitert, dass wir in der Gruppe dem Thema nicht nahe waren, bzw. KI-Agenten so nicht aktiv nutzen und auch keine eigenen Beispiele solchen Nutzens kannten. Das Thema war nur aus Meldungen von Zeitschriften bekannt.\\
+Am Ende haben wir uns dafür entschieden im Gewissensbit das Thema von KI-Checkern zu betrachten. Aus dem Ansatz der erhöhten Anschlagquote dieser für fremdsprachige Studenten haben wir dann als Beispiel die Nutzung von Rechtschreibtools oder maschinellen Übersetzungen konkretisiert und inwiefern man Checker dann als verlässlich anzunehmen sollte.\\
+
+% Was hat beim finalen Gewissensbit nicht geklappt? -> Geschichte & Analyse noch nicht ausgedacht!!
+% Was war in der Gruppe streitig? ->    ethische Ansätze/Interpretationen die auseinander gingen
+%                                       Kritik in der Gruppe am Gewissensbit
+
+
+\end{document}

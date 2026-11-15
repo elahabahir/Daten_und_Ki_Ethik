@@ -1,25 +1,10 @@
-\documentclass[a4,12pt]{article}
+\documentclass[a4paper,12pt]{article}
 \usepackage[ngerman]{babel}
 \usepackage[onehalfspacing]{setspace} % 1.5-facher Zeilenabstand#
-%\documentclass[a4paper,12pt]{article}
 \usepackage[utf8]{inputenc}
-\usepackage{graphicx}
-\usepackage{booktabs}
-\usepackage{hyperref}
-\usepackage{geometry}
-%\usepackage[english,ngerman]{babel}
-\usepackage{amsmath}
-\usepackage{amssymb}
 \usepackage{float}
-\usepackage{caption}
 %\usepackage{setspace}
 
-\usepackage[backend=biber]{biblatex}
-
-%\usepackage{natbib}
-\addbibresource{citations.bib}
-\addbibresource{citations.bib}
-\geometry{a4paper, margin=1in}
 
 \begin{document}
 
@@ -30,13 +15,12 @@
     \vspace*{3cm}
     {\LARGE {Daten und KI-Ethik}}\\[3.0cm]
 {\Huge \begin{spacing}{1.2}
-\textbf{Gewissensbit: KI-Checker bei internationalen Studenten}
-\end{spacing}}\\[2.0cm]\\
+\textbf{Gewissensbit: KI-Checker bei internationalen Studenten}\\[2.0cm]
+\end{spacing}}
     {\Large {Gruppenmitglieder:}}\\[0.5cm]
-    {\large Elaha Bahir, Felix Kirchner, Tim Merge, Xin Xian Chail}\\[4.0cm]
+    {\large Elaha Bahir, Felix Kirchner, Tim Merge, Xin Xian Chail}\\[2.0cm]
     {\large Dozenten }\\Dr. Henrike Weinert\\ Julian Welz\\
-    [2.0cm]
-    
+    [1.5cm]
     {\large 17.11.2026}
     \vfill
 \end{titlepage}
@@ -109,15 +93,15 @@ Eine endgültige Entscheidung über seine Arbeit steht noch aus. Während Steven
 \section{Fragen}
 %Beispiele:
 \begin{enumerate}
-    \item Steven's Arbeit wurde fälschlich als von KI generiert markiert. Würden sie sagen, dass in diesem Fall das \textit{false positive} zu erwarten war? Wenn ja, sehen sie die Folgen auch als verständlich?
+    \item Wie stehen sie zur KI Verwendung von Steven? Würden sie sagen, dass diese im Rahmen der Regeln liegt? % Also, ob für eine technische Arbeit die Verwendung von KI zur Rechtschreibprüfung überhaupt bedeutsam ist.
+    \item Steven's Arbeit wurde fälschlich als von KI generiert markiert. Würden sie sagen, dass in diesem Fall das \textit{false positive} zu erwarten war? Wenn ja, wie stehen sie dann zum weiteren Vorgang seitens der Universität? Hätte eventuell ein Zwischenschritt vor dem Gespräch liegen sollen?
     \item Denkbar wäre auch das man reguläre Abgaben bsp. für Studienleistungen auf KI-Verwendung untersucht. Wie stehen sie dazu? Sehen sie darin einen Sinn, oder würden sie den Nutzen von KI hier als selbstschädigend ohne weiteren Handlungsgrund einordnen? % Regt die Frage eine Diskussion an? Ist das wichtig fürs Bit?
     \item Ist eine solche Nutzung von KI für 'Wochenaufgaben' ihrer Meinung nach unterschiedlich zu einem googeln nach Literatur oder Foren in denen die Aufgaben konkret behandelt werden? % Evtl. noch: Sehen sie da einen Unterschied zu der Hausarbeit/Projekt/...
-    \item Wie würden sie die Einschätzung eines solchen KI-Checkers bewerten? Sehen Sie diese als ausreichend für weitere Handlungen oder Strafen an, oder eher als Ansatz tiefer manuell auffällige Textstellen zu untersuchen? % Existenz fortgeschrittener Checker die den Text auch nach Auffälligkeit markieren
-    \item Wie stehen sie zur KI Verwendung von ? Würden sie sagen, dass diese im Rahmen der Regeln liegt? % Also, ob für eine technische Arbeit die Verwendung von KI zur Rechtschreibprüfung überhaupt bedeutsam ist.
-    \item Wer wäre denn verantwortlich falls es zu einer Bewertung der Arbeit als Fehlversuch oder Täuschung kommen sollte? Könnte man das überhaupt verantworten? % Bsp. bei einer Anfechtung
-    \item ! behauptet das die Checker in der Zukunft insbesondere besser werden sollten, wenn Fälle wie die von Steven aktiv genutzt werden um das Modell anzupassen. Wie stehen sie dazu, auch von einer ethischen Sichtweise? % ! ist dritte Person der Fakultät die den Fall letztendlich behandelt
-    \item Hätte Laura die Resultate des KI-Checkers kritischer prüfen sollen? % Und kommt es damit nicht einfach zu einem neuen Bias?
-\end{enumerate}
+    \item Wie würden sie die Einschätzung solcher KI-Checker im Allgemeinen bewerten? Sehen Sie diese als ausreichend für weitere Handlungen an, oder eher als Ansatz zu untersuchen? Wenn ja, wie tief? % Existenz fortgeschrittener Checker die den Text auch nach Auffälligkeit markieren
+    \item Wer wäre denn verantwortlich falls die Arbeit vorerst fälschlich als Fehlversuch oder Täuschung gewertet wird? Könnte man das überhaupt verantworten? Auf welcher Basis könnte man den, ihrer Meinung nach, definitiv handeln?% Bsp. bei einer Anfechtung
+    \item Die Universität denkt darüber nach in Kooperation mit anderen Universitäten einen eigenen KI-Checker zu entwickeln. Dieser soll Fälle wie Steven's abdecken wo es eventuell zu Benachteiligung durch gängige Modelle kommt. Der Checker würde dabei mit anonymisierten Daten trainiert werden aus Fällen wo das bisherige Angebot falsch anschlägt, wie bei Steven. Wie stehen sie dazu, auch von einer ethischen Sichtweise? % Also das jetzt von jeder 'wichtigen' Abgabe effektiv eine KI trainiert wird.
+    % Frage nach Zwischenschritt passt eher zum ersten Frageblock
+\end{enumerate} % Evtl. als Teilfrage, wie man dazu steht, dass für den Checker selbst nichts nachgewiesen wird.
 
 \section{ethische Einordnung} % Utilitarismus? Unklar wie Kant da genutzt werden koennte
 
